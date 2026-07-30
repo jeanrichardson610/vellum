@@ -1,5 +1,3 @@
-"use client";
-import * as React from "react";
 import { useToast } from "./use-toast";
 import { Toast, ToastProvider, ToastViewport, ToastTitle, ToastDescription } from "./toast";
 
