@@ -11,18 +11,22 @@ export default meta;
 type Story = StoryObj<typeof RadioGroup>;
 
 export const Playground: Story = {
-  render: () => (
-    <RadioGroup defaultValue="monthly">
-      {[
-        ["monthly", "Billed monthly"],
-        ["annual", "Billed annually — save 20%"],
-        ["lifetime", "Lifetime, one payment"],
-      ].map(([value, label]) => (
-        <label key={value} className="flex items-center gap-3 text-body-sm text-ink-950">
-          <RadioGroupItem value={value} id={value} />
-          {label}
-        </label>
-      ))}
-    </RadioGroup>
-  ),
+  render: () => {
+    const options: [string, string][] = [
+      ["monthly", "Billed monthly"],
+      ["annual", "Billed annually — save 20%"],
+      ["lifetime", "Lifetime, one payment"],
+    ];
+
+    return (
+      <RadioGroup defaultValue="monthly">
+        {options.map(([value, label]) => (
+          <label key={value} className="flex items-center gap-3 text-body-sm text-ink-950">
+            <RadioGroupItem value={value} id={value} />
+            {label}
+          </label>
+        ))}
+      </RadioGroup>
+    );
+  },
 };
