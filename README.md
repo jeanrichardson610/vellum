@@ -15,7 +15,7 @@
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-Next.js_15-black?style=for-the-badge&logoColor=white&logo=next.js&color=000000" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Next.js_16-black?style=for-the-badge&logoColor=white&logo=next.js&color=000000" alt="next.js" />
     <img src="https://img.shields.io/badge/-React_19-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS_v4-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
@@ -47,7 +47,7 @@ The project was built to demonstrate the kind of judgment a design-system role a
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **Next.js 15** (App Router) + **TypeScript**
+- **Next.js 16** (App Router) + **TypeScript**
 - **React 19**
 - **Tailwind CSS v4** — every design token lives in `src/app/globals.css` via `@theme`, not a JS config file
 - **Radix UI primitives** — Accordion, Avatar, Checkbox, Dialog, DropdownMenu, Popover, Progress, RadioGroup, Select, Slider, Slot, Switch, Tabs, Toast, Tooltip — correct accessibility behavior under every interactive component
