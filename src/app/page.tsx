@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
   CardDescription,
-  CardContent,
+  
 } from "@/components/card";
 import { ArrowRight, Component, Palette, Type } from "lucide-react";
 

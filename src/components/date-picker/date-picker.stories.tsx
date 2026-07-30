@@ -11,7 +11,7 @@ export default meta;
 type Story = StoryObj<typeof DatePickerField>;
 
 export const Playground: Story = {
-  render: () => {
+  render: function DatePickerStory() {
     const [date, setDate] = React.useState<Date | undefined>(undefined);
     return <DatePickerField value={date} onChange={setDate} />;
   },

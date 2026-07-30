@@ -62,7 +62,7 @@ export function TokenPlayground() {
         <div>
           <h2 className="font-display text-heading-md text-ink-950">Token Playground</h2>
           <p className="mt-1 text-body-sm text-ink-600">
-            These aren't mock controls — they write straight into the same CSS variables every
+            These aren&apos;t mock controls — they write straight into the same CSS variables every
             component reads. Nothing below is a screenshot.
           </p>
         </div>

@@ -23,7 +23,7 @@ export const Playground: Story = {
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Delete this project?</DialogTitle>
-          <DialogDescription>This action can't be undone. All components, tokens, and stories will be permanently removed.</DialogDescription>
+          <DialogDescription>This action can&apos;t be undone. All components, tokens, and stories will be permanently removed.</DialogDescription>
         </DialogHeader>
         <DialogFooter>
           <DialogClose asChild>
