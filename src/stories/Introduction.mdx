@@ -1,0 +1,39 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Introduction" />
+
+<div style={{ fontFamily: "var(--font-body)", maxWidth: 720 }}>
+
+# Vellum
+
+A precision-drafted component system for React. Vellum takes its name from
+the fine, near-translucent drafting paper architects trace over — the point
+isn't decoration, it's exact, repeatable lines. That's the brief this
+library answers: every spacing value, color, and radius traces back to a
+single token file, so 23 components stay visually consistent by
+construction, not by convention.
+
+### What's in here
+
+- **Tokens** — color, type, spacing, radius, shadow, and motion, all defined
+  once in `src/app/globals.css` as Tailwind v4 `@theme` variables.
+- **23 components** — Button, Badge, Card, Input, Textarea, Checkbox,
+  Switch, RadioGroup, Select, Tabs, Accordion, Dialog, Drawer, Tooltip,
+  Popover, DropdownMenu, Toast, Alert, Progress, Avatar, Slider,
+  DatePicker, Spinner.
+- **Accessibility by default** — every interactive component is built on
+  Radix UI primitives: correct keyboard nav, focus trapping, and ARIA
+  wiring out of the box.
+- **Motion with intent** — Framer Motion drives component-level transitions
+  (dialogs, drawers); see **Playground → Token Playground** for a GSAP-driven
+  signature moment.
+
+### Start here
+
+- **Foundations** in the sidebar walks through color, type, and spacing.
+- **Components** documents each one with live, editable controls.
+- **Playground → Token Playground** is the one page built to be looked at,
+  not just used — scrub the spacing and radius tokens and watch every
+  component on the page respond in real time.
+
+</div>
