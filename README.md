@@ -2,7 +2,7 @@
 
 A token-driven React component system: 23 components, one design-token file, documented in Storybook.
 
-Built with Next.js 15, React 19, TypeScript, Tailwind CSS v4, Radix UI, Framer Motion, and GSAP.
+Built with Next.js 16, React 19, TypeScript, Tailwind CSS v4, Radix UI, Framer Motion, and GSAP.
 
 ## Get running
 
