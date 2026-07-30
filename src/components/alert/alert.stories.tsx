@@ -15,7 +15,7 @@ export const AllVariants: Story = {
     <div className="flex w-96 flex-col gap-3">
       {(["default", "success", "warning", "danger", "info"] as const).map((variant) => (
         <Alert key={variant} variant={variant}>
-          <AlertTitle>{variant[0].toUpperCase() + variant.slice(1)} alert</AlertTitle>
+          <AlertTitle>{variant.charAt(0).toUpperCase() + variant.slice(1)} alert</AlertTitle>
           <AlertDescription>Supporting copy explains what happened and what to do next.</AlertDescription>
         </Alert>
       ))}
